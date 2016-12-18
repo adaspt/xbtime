@@ -1,0 +1,24 @@
+{
+  "name": "xbtime",
+  "version": "1.0.0",
+  "description": "Xbox usage time tracker",
+  "author": "Adas Petrovas",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "watcher": "node watcher",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adaspt/xbtime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adaspt/xbtime/issues"
+  },
+  "homepage": "https://github.com/adaspt/xbtime#readme",
+  "dependencies": {
+    "nedb": "^1.8.0",
+    "ping": "^0.2.1"
+  }
+}
